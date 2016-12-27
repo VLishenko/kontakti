@@ -1,0 +1,140 @@
+.contact-title {
+	font-size: 32px;
+	line-height: 40px;
+	padding: 0 20px;
+}
+.contact-body {
+	padding: 20px 0;
+}
+.contact-body p {
+	padding: 10px 0;
+	font-size: 14px;
+}
+.contact-body,
+.contact-body h2,
+.contact-body a {
+	color: #565353;
+}
+
+.contact-body i {
+	position: absolute;
+	left: 0;
+	font-size: 42px;
+}
+.contact-body h2 {
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 600;
+}
+.contact-body h2,
+.contact-body ul {
+	margin: 0;
+	padding-left: 60px;
+}
+.contact-body ul {
+	display: inline-block;
+	width: 100%;
+}
+
+.contact-body ul,
+.contact-map {
+	margin-bottom: 40px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.contact-phone {
+	padding: 30px 20px 0px 20px;
+}
+.schedule {
+	background-color: #4AA0D5;
+	padding: 30px 20px 0px 20px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.schedule h2 {
+	color: #fff;
+}
+.delivery-list li:before{
+	position: static !important;
+	font-family: FontAwesome;
+	content: "\f0a4" !important;
+	padding-right: 20px;
+}
+
+/*.contact-body .user-forms {
+	width: 320px;
+}*/
+.contact-body .user-forms input,
+.contact-body .user-forms textarea {
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 3px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.contact-body .user-forms textarea {
+	height: 157px;
+}
+.contact-body .user-forms textarea {
+	margin: 0;
+	margin-bottom: 10px;
+}
+.contact-body .user-forms-left{
+	width: 100%;
+}
+.contact-body label {
+	margin-top: 15px;
+}
+.sent-form-btn {
+	width: 100%;
+	text-align: center;
+}
+.contact-body .user-forms input[type='submit']{
+	margin-top: 20px;
+	height: 40px;
+	background: #E85656;
+	width: 300px;
+}
+/*.contact-body .captcha-wrap {
+	width: 100%;
+}*/
+@media only screen and (max-width : 768px) {
+	.contact-body h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.contact-body i {
+		font-size: 30px;
+	}
+	.contact-phone ul li,
+	.contact-mails ul li {
+		padding: 10px 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.contact-body i {
+		position: static;
+	}
+	.contact-body h2,
+	.contact-body i,
+	.contact-body p  {
+		width: 100%;
+		text-align: center;
+	}
+	.contact-body h2, 
+	.contact-body ul {
+		padding-left: 0;
+	}
+	.contact-body .user-forms input[type="submit"] {
+		width: 100%;
+	}
+	.contact-phone ul {
+		text-align: center;
+	}
+}
